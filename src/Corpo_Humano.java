@@ -28,7 +28,7 @@ public class Corpo_Humano
     {
         return Volume;
     }
-    // Um setter deve estar público para ser alicado em outras classes
+    // Um setter deve estar público para ser aplicado em outras classes
     public void setVolume(float volume)
     {
         this.Volume = volume;
@@ -43,6 +43,7 @@ public class Corpo_Humano
         this.Densidade = densidade;
     }
 
+    // Desafio IMC
     public float getAltura()
     {
         return Altura;
